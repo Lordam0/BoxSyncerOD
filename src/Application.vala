@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2011-2018 Your Organization (https://greentale.de)
+* Copyright (c) 2011-2018 Andre Mohr (https://greentale.de)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public

@@ -6,9 +6,11 @@ executable(
     meson.project_name(),
     'src/Application.vala',
     'src/views/StatusView.vala',
+    'src/tools/ODInterface.vala',
     
     dependencies: [
-        dependency('gtk+-3.0')
+        dependency('gtk+-3.0'),
+        meson.get_compiler('vala').find_library('posix'),
     ],
     install: true
 )
