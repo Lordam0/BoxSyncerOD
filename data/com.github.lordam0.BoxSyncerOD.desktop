@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=BoxSyncerOD
+GenericName=App to sync OneDrive files
+Comment=Setup the demon to sync files with OneDrive and keep track of configurations and activities
+Categories=Utility
+Exec=com.github.lordam0.BoxSyncerOD
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=OneDrive;one drive
