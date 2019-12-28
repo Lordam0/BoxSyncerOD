@@ -33,6 +33,13 @@ public class MyApp : Gtk.Application {
         main_window.default_height = 300;
         main_window.default_width = 300;
         main_window.title = "Hello World";
+        
+        var main_stack = new Gtk.Stack ();
+        var status_view = new StatusView ();
+        main_stack.add (status_view) ;
+        
+        main_window.add (main_stack);
+        
         main_window.show_all ();
     }
 
